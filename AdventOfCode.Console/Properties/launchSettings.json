@@ -1,0 +1,44 @@
+{
+  "profiles": {
+    "Day 1": {
+      "commandName": "Project",
+      "commandLineArgs": "1"
+    },
+    "Day 2": {
+      "commandName": "Project",
+      "commandLineArgs": "2"
+    },
+    "Day 3": {
+      "commandName": "Project",
+      "commandLineArgs": "3"
+    },
+    "Day 4": {
+      "commandName": "Project",
+      "commandLineArgs": "4"
+    },
+    "Day 5": {
+      "commandName": "Project",
+      "commandLineArgs": "5"
+    },
+    "Day 6": {
+      "commandName": "Project",
+      "commandLineArgs": "6"
+    },
+    "Day 7": {
+      "commandName": "Project",
+      "commandLineArgs": "7"
+    },
+    "Day 8": {
+      "commandName": "Project",
+      "commandLineArgs": "8"
+    },
+    "Day 9": {
+      "commandName": "Project",
+      "commandLineArgs": "9"
+    },
+    "Day 10": {
+      "commandName": "Project",
+      "commandLineArgs": "10"
+    }
+  }
+}
