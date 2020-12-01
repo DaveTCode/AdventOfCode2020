@@ -28,6 +28,8 @@ let main args =
                                 Log.Error "Invalid command line parameters"
                                 exit 1
 
-    let lines = File.ReadLines inputFile
+    let lines =
+        File.ReadLines inputFile
+        |> Seq.toList
 
     func lines
