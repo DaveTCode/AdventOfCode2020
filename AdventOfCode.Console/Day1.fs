@@ -1,8 +1,6 @@
 module Day1
 
-
 open Serilog
-open System.Linq
 open System.Collections.Generic
 
 let run (lines: IEnumerable<string>) =
