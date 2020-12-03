@@ -48,6 +48,6 @@ let run (lines: IEnumerable<string>) =
     ]
 
     Log.Information $"Task 1 - {count_trees task1} trees"
-    Log.Information $"Task 2 - {results |> Seq.reduce (fun x y -> x * y)} trees"
+    Log.Information $"Task 2 - {results |> Seq.reduce (*)} trees"
 
     0
