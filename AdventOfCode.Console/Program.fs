@@ -21,6 +21,7 @@ let main args =
                                 | 1 -> (Day1.run, "c:/code/adventofcode/2020/AdventOfCode/Inputs/day1.txt")
                                 | 2 -> (Day2.run, "c:/code/adventofcode/2020/AdventOfCode/Inputs/day2.txt")
                                 | 3 -> (Day3.run, "c:/code/adventofcode/2020/AdventOfCode/Inputs/day3.txt")
+                                | 4 -> (Day4.run, "c:/code/adventofcode/2020/AdventOfCode/Inputs/day4.txt")
                                 | _ -> 
                                     Log.Error $"Day {options.Value.day} not yet written"
                                     exit 1
