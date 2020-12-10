@@ -14,6 +14,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Inputs", "Inputs", "{6785413B-B252-4E93-BF1E-1F4DBF4CF3BA}"
 	ProjectSection(SolutionItems) = preProject
 		Inputs\day1.txt = Inputs\day1.txt
+		Inputs\day10.txt = Inputs\day10.txt
 		Inputs\day2.txt = Inputs\day2.txt
 		Inputs\day3.txt = Inputs\day3.txt
 		Inputs\day4.txt = Inputs\day4.txt

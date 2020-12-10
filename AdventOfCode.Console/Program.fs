@@ -18,15 +18,16 @@ let main args =
     let (func, inputFile) = match result with
                             | :? CommandLine.Parsed<Options> as options ->
                                 match options.Value.day with
-                                | 1 -> (Day1.run, "c:/code/adventofcode/2020/AdventOfCode/Inputs/day1.txt")
-                                | 2 -> (Day2.run, "c:/code/adventofcode/2020/AdventOfCode/Inputs/day2.txt")
-                                | 3 -> (Day3.run, "c:/code/adventofcode/2020/AdventOfCode/Inputs/day3.txt")
-                                | 4 -> (Day4.run, "c:/code/adventofcode/2020/AdventOfCode/Inputs/day4.txt")
-                                | 5 -> (Day5.run, "c:/code/adventofcode/2020/AdventOfCode/Inputs/day5.txt")
-                                | 6 -> (Day6.run, "c:/code/adventofcode/2020/AdventOfCode/Inputs/day6.txt")
-                                | 7 -> (Day7.run, "c:/code/adventofcode/2020/AdventOfCode/Inputs/day7.txt")
-                                | 8 -> (Day8.run, "c:/code/adventofcode/2020/AdventOfCode/Inputs/day8.txt")
-                                | 9 -> (Day9.run, "c:/code/adventofcode/2020/AdventOfCode/Inputs/day9.txt")
+                                | 1 -> (Day1.run, "../../../../Inputs/day1.txt")
+                                | 2 -> (Day2.run, "../../../../Inputs/day2.txt")
+                                | 3 -> (Day3.run, "../../../../Inputs/day3.txt")
+                                | 4 -> (Day4.run, "../../../../Inputs/day4.txt")
+                                | 5 -> (Day5.run, "../../../../Inputs/day5.txt")
+                                | 6 -> (Day6.run, "../../../../Inputs/day6.txt")
+                                | 7 -> (Day7.run, "../../../../Inputs/day7.txt")
+                                | 8 -> (Day8.run, "../../../../Inputs/day8.txt")
+                                | 9 -> (Day9.run, "../../../../Inputs/day9.txt")
+                                | 10 -> (Day10.run, "../../../../Inputs/day10.txt")
                                 | _ -> 
                                     Log.Error $"Day {options.Value.day} not yet written"
                                     exit 1
