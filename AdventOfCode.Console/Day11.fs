@@ -1,9 +1,8 @@
 module Day11
 
+open Common
 open Serilog
 open System.Collections.Generic
-
-exception ParseException of string;
 
 type Cell = Floor | Chair | Occupied
 

@@ -1,11 +1,10 @@
-module Day2
+module Day02
 
+open Common
 open Serilog
 open System.Collections.Generic
 open System.Linq
 open System.Text.RegularExpressions
-
-exception ParseException of string;
 
 type PasswordRule = {
     min: int;

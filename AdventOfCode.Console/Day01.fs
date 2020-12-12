@@ -1,4 +1,4 @@
-module Day1
+module Day01
 
 open Serilog
 open System.Collections.Generic

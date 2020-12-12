@@ -1,9 +1,8 @@
 module Day12
 
+open Common
 open Serilog
 open System.Collections.Generic
-
-exception ParseException of string
 
 type CompassDirection = East | West | North | South
 type RelativeDirection = Left | Right

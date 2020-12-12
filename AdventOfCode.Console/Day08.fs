@@ -1,11 +1,10 @@
-module Day8
+module Day08
 
+open Common
 open Serilog
 open System.IO
 open System.Collections.Generic
 open System.Text.RegularExpressions
-
-exception ParseException of string
 
 type Instruction =
     | Acc of inc: int

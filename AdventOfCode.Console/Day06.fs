@@ -1,4 +1,4 @@
-module Day6
+module Day06
 
 open Serilog
 open System
