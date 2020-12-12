@@ -29,6 +29,7 @@ let main args =
                                 | 9 -> (Day9.run, "../../../../Inputs/day9.txt")
                                 | 10 -> (Day10.run, "../../../../Inputs/day10.txt")
                                 | 11 -> (Day11.run, "../../../../Inputs/day11.txt")
+                                | 12 -> (Day12.run, "../../../../Inputs/day12.txt")
                                 | _ -> 
                                     Log.Error $"Day {options.Value.day} not yet written"
                                     exit 1

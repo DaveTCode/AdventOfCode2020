@@ -16,6 +16,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Inputs", "Inputs", "{678541
 		Inputs\day1.txt = Inputs\day1.txt
 		Inputs\day10.txt = Inputs\day10.txt
 		Inputs\day11.txt = Inputs\day11.txt
+		Inputs\day12.txt = Inputs\day12.txt
 		Inputs\day2.txt = Inputs\day2.txt
 		Inputs\day3.txt = Inputs\day3.txt
 		Inputs\day4.txt = Inputs\day4.txt
