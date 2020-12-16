@@ -58,7 +58,7 @@ let run (lines: IEnumerable<string>) =
                     )
         |> Seq.toList
 
-    let rec reduce_to_final_values (found: (Field * int) list) (potentials: (Field * int list) list) =
+    let rec reduce_to_final_values found potentials =
         if Seq.length potentials = 0 then
             found
         else
